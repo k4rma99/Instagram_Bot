@@ -2,7 +2,7 @@ from selenium import webdriver
 from time import sleep
 
 class instagram_unfollow_check:
-    def __init__(self , username = "joke.peralta_", password = "creator123"):
+    def __init__(self , username = "", password = ""):
         self.driver = webdriver.Chrome("C:/chromedriver.exe")
         self.driver.get("https://www.instagram.com/")
         sleep(5)
